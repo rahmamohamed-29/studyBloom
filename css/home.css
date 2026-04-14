@@ -378,8 +378,10 @@ ul {
   }
 }
 @media (max-width: 480px) {
+    .head {
+  height: 50px;}
   .links {
-    gap: 20px;
+    gap: 10px;
   }
   .logo {
     display: none;
@@ -388,11 +390,12 @@ ul {
     display: block;
     width: 30px;
     margin-left: 0;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     margin-right: 5px;
   }
   .section {
+    font-size: 12px;
     font-weight: 500;
   }
   .title1,
@@ -400,8 +403,11 @@ ul {
   .ready h3 {
     font-size: 25px;
   }
-  .describtion1,
-  .describtion3 {
+  .describtion1 {
+    font-size: 14px;
+  }
+  ,
+  .describtion3{
     font-size: 16px;
   }
   .titleCard {
@@ -443,7 +449,7 @@ ul {
   }
   .photo1 {
     width: 40%;
-    max-width: 250px;
+   
   }
   .end {
     font-size: 12px;
