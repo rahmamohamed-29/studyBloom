@@ -109,6 +109,8 @@ ul {
   border-spacing: 0;
   background-color: rgb(210, 196, 225, 0.2);
   box-shadow: rgb(112, 73, 134, 0.3) 0px 2px 8px 0px;
+  overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 .organize td {
     color: #321942;
@@ -299,7 +301,7 @@ ul {
     font-weight: 500;
     }
     .title1 {
-       font-size: 30px;
+       font-size: 20px;
     }
   .describtion1{
     font-size: 14px;
