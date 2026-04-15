@@ -413,8 +413,11 @@ ul {
     font-size: 12px;
     font-weight: 500;
     }
-    .title1,.title2 {
-       font-size: 25px;
+    .title1 {
+       font-size: 30px;
+    }
+    .title2{
+        font-size: 25px;
     }
   .describtion1,.description2 {
     font-size: 14px;
@@ -433,7 +436,7 @@ ul {
     flex-direction: row;
   }
   .photo {
-    width: 40%;
+    width: 30%;
   }
 .icon{
     width: 30px;
