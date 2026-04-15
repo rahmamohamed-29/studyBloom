@@ -102,6 +102,11 @@ ul {
   margin-right: 50px;
 }
 /*-------------------------------------------------------------------*/
+.container{
+  display: flex;
+  justify-content: center;
+
+}
 .organize{
   border: 2px solid #321942;
   width: 80%;
@@ -321,7 +326,7 @@ ul {
   }
 
   .organize{
-  width: 50%;
+  width: 90%
   margin: 10px auto;
 }
 .organize td {
